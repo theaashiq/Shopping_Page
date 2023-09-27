@@ -87,3 +87,8 @@ input {
 .contact h4, .contact p {
     margin-bottom: 5px;
 }
+
+img {
+    width: 220px;
+    height: 220px;
+}

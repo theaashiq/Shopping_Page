@@ -6,11 +6,69 @@
 body {
     background-color: #f2f2f2 ;
 }
+/*------------First page ------------*/
 
-/* -----header section --------*/
+/* ----------- header  ----------------*/
 
+.header a {
+    text-decoration: none;
+    color: #193366;
+    font-weight: bold;
+}
+
+/*--------- banner -------------------*/
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  
+}
+
+.banner img {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(40%);
+}
+
+.banner_content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.banner_content h1 {
+    display: inline-block;
+    background-color: #cc0000;
+    font-size: 48px;
+    color: white;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner p {
+    margin-top: 5px;
+    color: #f2f2f2;
+    font-size:20px;
+}
+
+.banner a {
+    text-decoration: none;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 24px;
+    background: linear-gradient(114deg, rgba(11,11,11,1) 0%, rgba(62,62,62,0.7679446778711485) 100%);
+    color: #cc0000;
+    padding: 12px; 
+
+}
+
+/* -----Product Page section --------*/
+
+/*---------- header ------------------*/
 nav {
-    background-color: #99ceff;
+    background-color: #d6e0f5;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -29,13 +87,16 @@ nav {
 li {
     margin: 3px 10px 3px 10px;
     padding: 5px;
-    border:1px solid #99ceff;
+    border:2px solid #d6e0f5;
     border-radius: 5px;
+    color: #193366;
+    font-weight:bold;
     cursor: pointer;
 }
 
 li:hover {
-    border-color: black;
+    border-color: #193366;
+    
    
 }
 
@@ -48,7 +109,7 @@ input {
     outline: none;
     border:none;
     border-bottom: 1px solid black;
-    background-color: #99ceff;
+    background-color: #d6e0f5;;
     font-size: 15px
 }
 
@@ -128,7 +189,7 @@ img {
     text-decoration-color: red
 }
 
-/* -----About Section -----------*/
+/* -----Footer Section -----------*/
 
 .about {
     background-color: #99ceff;
@@ -141,7 +202,8 @@ img {
     margin-top: 50px;
 }
 
-/* ------------Checkout section -------------------- */
+/* ------------ Checkout section -------------------- */
+/* ---------Form style sheet ------------------------*/
 
 .checkout {
     background-color: white;
@@ -149,7 +211,7 @@ img {
     margin-left: 10px;
     display: inline-block;
     width: 500px;
-00px;
+    height:600px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -202,3 +264,4 @@ button {
     margin: 20px;
     text-decoration: none;
 }
+

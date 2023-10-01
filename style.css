@@ -68,6 +68,10 @@ body {
 
 /*---------- header ------------------*/
 nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: auto;
     background-color: #d6e0f5;
     padding: 10px;
     display: flex;
@@ -129,7 +133,7 @@ body .products {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-buttom: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
